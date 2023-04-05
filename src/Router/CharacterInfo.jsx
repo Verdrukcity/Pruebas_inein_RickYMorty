@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux'
 
 const CharacterInfo = () => {
   const info = useSelector(state => state.rickNMorty.character)
-  console.log(info)
   return (
     <div>
       <p>{info.name}</p>
